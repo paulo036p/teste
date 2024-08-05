@@ -1,1 +1,6 @@
-select * from usuarios
+select 
+	u.nome,
+	u.idade,
+	u.email,
+	u.sexo 
+from usuarios u
